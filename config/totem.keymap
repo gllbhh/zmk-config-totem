@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp EXCL   &kp AT     &kp HASH      &kp DLLR   &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MULTIPLY
-                  &kp PRCNT  &kp CARET  &kp AMPS      &kp UNDER  &kp LPAR    &kp RPAR  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_MINUS
-&kp LEFT_CONTROL  &kp BSLH   &kp PIPE   &kp GRAVE     &kp TILDE  &kp LBKT    &kp RBKT  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_PLUS      &kp RCTRL
-                                        &kp LEFT_ALT  &kp SQT    &kp SEMI    &mo ADJ   &kp KP_N0  &kp KP_DOT
+                  &kp EXCL   &kp AT     &kp HASH       &kp DLLR   &kp LBRC        &kp RBRC        &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MULTIPLY
+                  &kp PRCNT  &kp CARET  &kp AMPS       &kp UNDER  &kp LPAR        &kp RPAR        &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_MINUS
+&kp LEFT_CONTROL  &kp BSLH   &kp PIPE   &kp GRAVE      &kp TILDE  &kp LBKT        &kp RBKT        &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_PLUS      &kp RCTRL
+                                        &kp SEMICOLON  &kp TAB    &kp LEFT_ALT    &kp LEFT_SHIFT  &kp KP_N0  &kp KP_DOT
             >;
         };
 
