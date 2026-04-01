@@ -50,6 +50,11 @@
             bindings = <&kt BACKSPACE>;
             key-positions = <7 8>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
