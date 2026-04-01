@@ -79,19 +79,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q  &kp W  &kp E    &kp R          &kp T        &kp Y    &kp U        &kp I      &kp O    &kp P
-                    &kp A  &kp S  &kp D    &kp F          &kp G        &kp H    &kp J        &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C    &kp V          &kp B        &kp N    &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RCTRL NON_US_BACKSLASH
+                    &kp Q  &kp W  &kp E          &kp R          &kp T        &kp Y    &kp U        &kp I          &kp O    &kp P
+                    &kp A  &kp S  &kp D          &kp F          &kp G        &kp H    &kp J        &kp K          &kp L    &kp SEMI
+&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C          &kp V          &kp B        &kp N    &kp M        &kp COMMA      &kp DOT  &kp FSLH  &mt RCTRL NON_US_BACKSLASH
                                   &mt LCTRL DEL  &lt NAV LCTRL  &kp SPACE    &kp RET  &lt SYM ESC  &mt LALT BSPC
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        nav_layer {
+        symbols {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAV";
+            label = "SYM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -114,10 +114,10 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sym_layer {
+        controls {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "SYM";
+            label = "ctrl";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -158,10 +158,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans     &kp PG_UP  &kp UP        &kp PG_DN       &trans       &trans     &trans          &mmv MOVE_UP    &trans           &trans
-        &kp LSHFT  &kp LEFT   &kp DOWN      &kp RIGHT       &trans       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &kp LCTRL  &kp LALT   &msc SCRL_UP  &msc SCRL_DOWN  &trans       &trans     &trans          &trans          &trans           &trans  &trans
-                              &tog MOUSE    &trans          &kp SPACE    &mkp LCLK  &mkp RCLK       &mkp MCLK
+                               &trans     &kp PG_UP  &kp UP        &kp PG_DN       &trans       &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_LEFT
+                               &kp LSHFT  &kp LEFT   &kp DOWN      &kp RIGHT       &trans       &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT
+&mt LEFT_CONTROL LEFT_CONTROL  &kp LCTRL  &kp LALT   &msc SCRL_UP  &msc SCRL_DOWN  &trans       &trans          &trans          &trans          &trans           &trans           &trans
+                                                     &tog MOUSE    &trans          &kp SPACE    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
