@@ -47,7 +47,7 @@
         };
 
         bcsp {
-            bindings = <&kt BACKSPACE>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
         };
 
