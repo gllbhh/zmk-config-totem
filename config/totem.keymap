@@ -193,10 +193,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans
-        &bootloader  &bt BT_NXT  &trans        &trans  &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans        &trans  &trans         &trans  &trans  &trans
+        &sys_reset  &bt BT_CLR  &out OUT_TOG  &trans  &bootloader    &bootloader  &trans  &trans  &trans  &trans
+        &trans      &bt BT_NXT  &trans        &trans  &trans         &trans       &trans  &trans  &trans  &trans
+&trans  &trans      &bt BT_PRV  &trans        &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+                                &trans        &trans  &trans         &trans       &trans  &trans
             >;
         };
     };
