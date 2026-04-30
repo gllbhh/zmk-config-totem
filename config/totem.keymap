@@ -70,9 +70,9 @@
             key-positions = <2 3>;
         };
 
-        alt_f4 {
+        Alt_F4 {
             bindings = <&kp LA(F4)>;
-            key-positions = <7 36>;
+            key-positions = <7 27>;
         };
 
         symbol_layer {
